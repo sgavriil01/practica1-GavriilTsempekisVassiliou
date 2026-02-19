@@ -2,7 +2,7 @@ import pytest
 from triangulo import checktriangle
 
 def test_case1():
-    assert checktriangle(6, 5, 10) == "Equal-sided triangle"
+    assert checktriangle(6, 5, 10) == "Scalene triangle"
 
 def test_case2():
     assert checktriangle(6, 6, 6) == "Equilateral triangle"

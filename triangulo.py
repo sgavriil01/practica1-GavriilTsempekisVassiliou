@@ -5,6 +5,6 @@ def checktriangle(a, b, c):
         elif a == b or b == c:
             return "Isosceles triangle"
         else:
-            return "Equal-sided triangle"
+            return "Scalene triangle"
     else:
         return "It is not a triangle"
