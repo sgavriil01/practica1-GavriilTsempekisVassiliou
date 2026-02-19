@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Coverage
+.coverage
+coverage.xml
+
+# VS Code
+.vscode/
+
+# Pytest cache
+.pytest_cache/
